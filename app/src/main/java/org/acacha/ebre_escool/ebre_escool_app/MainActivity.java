@@ -157,7 +157,9 @@ public class MainActivity extends ActionBarActivity implements
 			// decide what to show in the action bar.
 			getMenuInflater().inflate(R.menu.main, menu);
 			restoreActionBar();
-			return true;
+            Pushbots.sharedInstance().init(this);
+
+            return true;
 		}
 		return super.onCreateOptionsMenu(menu);
 	}
