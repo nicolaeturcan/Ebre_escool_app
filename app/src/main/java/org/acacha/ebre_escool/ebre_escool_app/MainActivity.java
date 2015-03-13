@@ -17,6 +17,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 
+import com.pushbots.push.Pushbots;
+
 import org.acacha.ebre_escool.ebre_escool_app.helpers.AndroidSkeletonUtils;
 import org.acacha.ebre_escool.ebre_escool_app.initial_settings.InitialSettingsActivity;
 import org.acacha.ebre_escool.ebre_escool_app.managment.ManagmentActivity;
